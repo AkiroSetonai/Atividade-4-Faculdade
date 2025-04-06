@@ -9,8 +9,8 @@ class TesteVeiculos {
         Veiculo bicicleta = new Bicicleta("Caloi", 2020, "Urbana");
         Veiculo caminhao = new Caminhao("Mercedes-Benz", 2015, 5000);
 
-        carro.mover();      // Saída: O carro está acelerando na estrada.
-        bicicleta.mover();  // Saída: A bicicleta está sendo pedalada pela ciclovia.
-        caminhao.mover();   // Saída: O caminhão está transportando mercadorias.
+        carro.mover();      
+        bicicleta.mover();  
+        caminhao.mover();   
     }
 }
